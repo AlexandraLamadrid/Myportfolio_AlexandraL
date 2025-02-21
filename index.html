@@ -10,6 +10,17 @@
 </head> 
 <body>
     <!-- MENU ENCABEZADO -->
+    <nav id="nav" class="fixed-top">
+        <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+            <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+            <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+        </ul>
+    </nav>
+
     <div class="contenedor-header">
         <header>
             <div class="logo">
@@ -125,7 +136,6 @@
                             <i class="fa-solid fa-camera"></i>
                             <span>FOTOS</span>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -156,7 +166,7 @@
                         <span>React</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>85%</span>
+                            <span>85%</span>
                             </div>
                         </div>
                     </div>
@@ -399,6 +409,7 @@
             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="#"><i class="fa-solid fa-rss"></i></a>
         </div>
+        <button id="mode-switch" onclick="toggleMode()">Modo Oscuro</button>
     </footer>
 
     <script src="script.js"></script>

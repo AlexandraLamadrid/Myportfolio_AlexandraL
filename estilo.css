@@ -30,7 +30,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: #B7B1F2;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -46,7 +46,7 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #B7B1F2;
 }
 .nav-responsive{
     background-color: #1CB698;
@@ -76,7 +76,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 10px solid #B7B1F2;
     display: block;
     width: 80%;
     margin: auto;
@@ -105,8 +105,9 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #B7B1F2;
 }
+
 .sobremi{
     background-color: #1e2326;
     color: #fff;
@@ -129,7 +130,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #B7B1F2;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -152,11 +153,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #B7B1F2;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #8174A0;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -177,7 +178,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #B7B1F2;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -202,7 +203,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #B7B1F2;
     z-index: -1;
     transition: 1s;
 }
@@ -246,12 +247,12 @@ html{
 .skills .skill .barra-skill{
     height: 8px;
     width: 80%;
-    background-color: #131517;
+    background-color: #B7B1F2;
     position: relative;
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color: #B7B1F2;
     position: absolute;
     top: 0;
     left: 0;
@@ -261,7 +262,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #8174A0;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -390,10 +391,10 @@ html{
     margin-bottom: 25px;
 }
 .curriculum .fila .izquierda{
-    border-right: 2px solid #252A2E;
+    border-right: 2px solid #B7B1F2;
 }
 .curriculum .fila .derecha{
-    border-left: 2px solid #252A2E;
+    border-left: 2px solid #B7B1F2;
 }
 .curriculum .fila .item{
     padding: 25px;
@@ -406,30 +407,30 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: #B7B1F2;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    color: #B7B1F2;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #B7B1F2;
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #B7B1F2;
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #B7B1F2;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -441,14 +442,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #B7B1F2;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #B7B1F2;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -460,7 +461,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #B7B1F2;
     float: left;
     position: relative;
     bottom: 4px;
@@ -503,7 +504,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(rgba(183,177,242,.8), rgba(183,177,242,.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -576,7 +577,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #B7B1F2;
     z-index: -1;
     transition: 1s;
 }
@@ -602,7 +603,7 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #B7B1F2;
     display: inline-block;
     margin-right: 20px;
 }
@@ -634,7 +635,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #B7B1F2;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -657,7 +658,7 @@ footer .arriba{
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: #252A2E;
+        background-color: #B7B1F2;
         width: 180px;
     }
     nav.responsive ul{

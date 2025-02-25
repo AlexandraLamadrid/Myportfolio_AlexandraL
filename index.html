@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
-</head> 
+</head>
+
 <body>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
         <header>
             <div class="logo">
                 <a href="#">Alexandra</a>
-            </div>             
+            </div>
             <nav id="nav">
                 <ul>
                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
@@ -25,9 +27,30 @@
                     <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
+            <style>
+                .libutton {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 7px;
+                    text-align: center;
+                    outline: none;
+                    text-decoration: none !important;
+                    color: #ffffff !important;
+                    width: 200px;
+                    height: 32px;
+                    border-radius: 16px;
+                    background-color: #0A66C2;
+                    font-family: "SF Pro Text", Helvetica, sans-serif;
+                }
+            </style>
+            <a class="libutton"
+                href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=alexandra-lamadrid-cortina"
+                target="_black">Sigueme en LinkedIn</a>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
+
         </header>
     </div>
 
@@ -53,9 +76,20 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Alexandra Lamadrid Cortina.</span> Soy desarrolladora back-end con experiencia en la creación de soluciones digitales personalizadas para el sector financiero, colaborando con equipos multidisciplinarios en el desarrollo de aplicaciones web y móviles. Me especializo en el diseño e implementación de estructuras de datos eficientes y bases de datos robustas que garantizan el rendimiento y la confiabilidad de los sistemas, y también tengo conocimientos en desarrollo front-end, lo que me permite contribuir a mejorar la experiencia del usuario mediante soluciones UI/UX funcionales y accesibles.
-                Actualmente, formo parte del equipo de IAS Software, donde desempeño el rol de analista de soporte N2. Soy técnica en desarrollo de software, egresada de Cesde Institución Educativa, donde adquirí sólidos conocimientos en Java, JavaScript, .NET y AWS. Complementé mi formación en Digital House, especializándome en tecnologías como JavaScript, React, Node.js, Java y bases de datos SQL.
-                Mi enfoque combina la solidez técnica con una perspectiva centrada en el usuario y el trabajo colaborativo. Me motiva el desafío de desarrollar soluciones tecnológicas que generen valor y contribuyan positivamente a las organizaciones y sus clientes. </p>
+            <p><span>Hola, soy Alexandra Lamadrid Cortina.</span> Soy desarrolladora back-end con experiencia en la
+                creación de soluciones digitales personalizadas para el sector financiero, colaborando con equipos
+                multidisciplinarios en el desarrollo de aplicaciones web y móviles. Me especializo en el diseño e
+                implementación de estructuras de datos eficientes y bases de datos robustas que garantizan el
+                rendimiento y la confiabilidad de los sistemas, y también tengo conocimientos en desarrollo front-end,
+                lo que me permite contribuir a mejorar la experiencia del usuario mediante soluciones UI/UX funcionales
+                y accesibles.
+                Actualmente, formo parte del equipo de IAS Software, donde desempeño el rol de analista de soporte N2.
+                Soy técnica en desarrollo de software, egresada de Cesde Institución Educativa, donde adquirí sólidos
+                conocimientos en Java, JavaScript, .NET y AWS. Complementé mi formación en Digital House,
+                especializándome en tecnologías como JavaScript, React, Node.js, Java y bases de datos SQL.
+                Mi enfoque combina la solidez técnica con una perspectiva centrada en el usuario y el trabajo
+                colaborativo. Me motiva el desafío de desarrollar soluciones tecnológicas que generen valor y
+                contribuyan positivamente a las organizaciones y sus clientes. </p>
 
             <div class="fila">
                 <!-- datos personales -->
@@ -155,7 +189,7 @@
                         <span>React</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                            <span>85%</span>
+                                <span>85%</span>
                             </div>
                         </div>
                     </div>
@@ -243,7 +277,9 @@
                         <h4>Desarrollo de software</h4>
                         <span class="casa">CESDE</span>
                         <span class="fecha">2022 - 2023</span>
-                        <p>Cuento con las capacidades para desarrollar aplicativos tipo web y para dispositivos, utilizando herramientas, metodologías y lenguajes de programación requeridos por el entorno productivo, demostrando respeto, orden y creatividad en su desempeño.</p>
+                        <p>Cuento con las capacidades para desarrollar aplicativos tipo web y para dispositivos,
+                            utilizando herramientas, metodologías y lenguajes de programación requeridos por el entorno
+                            productivo, demostrando respeto, orden y creatividad en su desempeño.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -252,7 +288,12 @@
                         <h4>Certified Tech Developer</h4>
                         <span class="casa">Digital House</span>
                         <span class="fecha">2023 - 2024</span>
-                        <p>El aprendizaje aqui se basa en aprender herramientas técnicas y fundacionales a ser utilizada a lo largo de toda la carrera. Desde un conocimiento general de como funciona una computadora o la internet hasta el manejo de una terminal y herramientas como GIT. Además me introdujeron al mundo de la programación per se desde dos paradigmas diferentes. Por un lado programación imperativa en donde trabajé con JavaScript y por otro lado programación orientada a objetos con Java.</p>
+                        <p>El aprendizaje aqui se basa en aprender herramientas técnicas y fundacionales a ser utilizada
+                            a lo largo de toda la carrera. Desde un conocimiento general de como funciona una
+                            computadora o la internet hasta el manejo de una terminal y herramientas como GIT. Además me
+                            introdujeron al mundo de la programación per se desde dos paradigmas diferentes. Por un lado
+                            programación imperativa en donde trabajé con JavaScript y por otro lado programación
+                            orientada a objetos con Java.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -265,7 +306,12 @@
                         <h4>Analista de soporte N2</h4>
                         <span class="casa">Ias Software</span>
                         <span class="fecha"> Octubre 2024 - actualidad</span>
-                        <p>Como Analista de Soporte N2 en IAS Software, colaboro con un equipo especializado en asegurar la estabilidad y el rendimiento de sistemas críticos para nuestros clientes. Me encargo de analizar y resolver incidencias técnicas de segundo nivel, identificando las causas raíz y aplicando soluciones eficientes que garanticen la continuidad operativa. Además, optimizo procesos mediante la documentación de procedimientos y guías técnicas, contribuyendo a la mejora continua del servicio y a la satisfacción del cliente.</p>
+                        <p>Como Analista de Soporte N2 en IAS Software, colaboro con un equipo especializado en asegurar
+                            la estabilidad y el rendimiento de sistemas críticos para nuestros clientes. Me encargo de
+                            analizar y resolver incidencias técnicas de segundo nivel, identificando las causas raíz y
+                            aplicando soluciones eficientes que garanticen la continuidad operativa. Además, optimizo
+                            procesos mediante la documentación de procedimientos y guías técnicas, contribuyendo a la
+                            mejora continua del servicio y a la satisfacción del cliente.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -274,7 +320,12 @@
                         <h4>Back Developer</h4>
                         <span class="casa">Capital Pocket</span>
                         <span class="fecha">2024 - actualidad</span>
-                        <p>Como desarrolladora de back-end en C-Pocket CapitalPocket, colaboro con un equipo multidisciplinario para crear soluciones financieras digitales innovadoras y personalizadas. Me especializo en diseñar y construir estructuras de datos eficientes y bases de datos confiables que aseguran la funcionalidad de las aplicaciones web y móviles. Además, contribuyo a mejorar las experiencias de los usuarios a través de soluciones de UI/UX creativas y accesibles.</p>
+                        <p>Como desarrolladora de back-end en C-Pocket CapitalPocket, colaboro con un equipo
+                            multidisciplinario para crear soluciones financieras digitales innovadoras y personalizadas.
+                            Me especializo en diseñar y construir estructuras de datos eficientes y bases de datos
+                            confiables que aseguran la funcionalidad de las aplicaciones web y móviles. Además,
+                            contribuyo a mejorar las experiencias de los usuarios a través de soluciones de UI/UX
+                            creativas y accesibles.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -283,14 +334,19 @@
                         <h4>Back Developer</h4>
                         <span class="casa">Ias Software</span>
                         <span class="fecha">Jan - May 2023</span>
-                        <p>Durante mi período en IAS Software, desempeñé un papel crucial como desarrolladora backend, especializándome en la creación y mantenimiento de soluciones robustas y escalables. Trabajé intensamente con Java y aproveché las capacidades del framework Spring Boot para desarrollar aplicaciones eficientes y de alto rendimiento. Además, mi trabajo incorporó el uso de servicios en la nube de AWS, lo que me permitió diseñar y desplegar infraestructuras seguras y resilientes que soportan grandes volúmenes de datos y tráfico.</p>
+                        <p>Durante mi período en IAS Software, desempeñé un papel crucial como desarrolladora backend,
+                            especializándome en la creación y mantenimiento de soluciones robustas y escalables. Trabajé
+                            intensamente con Java y aproveché las capacidades del framework Spring Boot para desarrollar
+                            aplicaciones eficientes y de alto rendimiento. Además, mi trabajo incorporó el uso de
+                            servicios en la nube de AWS, lo que me permitió diseñar y desplegar infraestructuras seguras
+                            y resilientes que soportan grandes volúmenes de datos y tráfico.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
-                    </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -373,7 +429,7 @@
                             </li>
                             <li>
                                 <i class="fa-solid fa-mobile-screen"></i>
-                                Teléfono: +57 310 875 8159 
+                                Teléfono: +57 310 875 8159
                             </li>
                             <li>
                                 <i class="fa-solid fa-envelope"></i>
@@ -402,4 +458,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

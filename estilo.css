@@ -11,7 +11,7 @@ html{
 }
 
 .inicio {
-    padding-top: calc(75px + 30px); /* altura del header + espacio extra */
+     margin-top: 70px; 
 }
 
 /* MENU */

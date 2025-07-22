@@ -9,6 +9,11 @@ html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
 }
+
+.inicio {
+    padding-top: calc(75px + 30px); /* altura del header + espacio extra */
+}
+
 /* MENU */
 
 .contenedor-header{
